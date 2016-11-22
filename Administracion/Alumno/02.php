@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<?php session_start();?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                      <div id="personal" class="jumbotron">
-                        <h2 class="text-center">Listado de Alumnos</h2>
+                        <h2 class="text-center">Alumnos</h2>
                     </div>
                     <div id="personal" class="jumbotron">
                     <div class="row placeholders">
@@ -103,9 +103,8 @@
                                      g1adVr2oPn/VU6h+/wDEe7SfVaB9VTqF7/xHu0n1WgfVU6he/wDEe7SfVaB9VTqF7/xHu0n1Wg5I
                                      7q/UEc5+I58fw0k8P7NQTr0t2rkdp7Fx238ktpybCMjtVsKUps9rIdeTpUtLaj5Lg5poNooMW43o
                                      M0CgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCg
-                                     UCgUCgUCgUCgUCg//9k=" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-                                <h4>Castillos Hinchables</h4>
-                            </a>
+                                     UCgUCgUCgUCgUCg//9k=" width="150" height="150" class="img-responsive" alt="">
+                                </a><h4>Castillos Hinchables</h4>                            
                         </div>
                         <div class="col-xs-6 col-sm-3 placeholder">
                             <a href="../Profesor/02.php">
@@ -160,7 +159,7 @@
                                      1ch7BKxTcDaorevpVQ/rSn75dTsf0v+yTwfdIVS6o9MCfUkCvtnAykZt02YFPwh2fDyNCJSZZKo3
                                      mRSdDwNLC98ENsOonR8/TQqUCcNeNmozk3l+n2i/Hs0Gdx3AxaAFQuOblBFwwLDO5Nn+UprIkWg1
                                      uh8CTAddAJyt/GsFtSVJMse9yZLufbSwt8NzejeU+ETOqcTl1ycB4+IKYhpJm1flboJusK1J2v5G
-                                     YF2Sv7mK+OBLl6TY/wMNvVYjAY/5WQAAAABJRU5ErkJggg==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                                     YF2Sv7mK+OBLl6TY/wMNvVYjAY/5WQAAAABJRU5ErkJggg==" width="150" height="150" class="img-responsive" alt="Link zona profesores">
                             </a><h4> Profesores</h4>
                         </div>
                         <div class="col-xs-6 col-sm-3 placeholder">
@@ -201,11 +200,11 @@ JSgTwMJPgCUJygT4GMh3pJAlXi80pPcNdx6Hewp4subUj4S+iHK9yL4TeJ7GFBzuRnBfrDv9rMPF
 Gz3HBEgcEyBxTIDEMQESxwRIHBMgcUyAxDEBEscESBwTIHFMgMQxARLHBEicJl763Ekcpz8L7Kk5
 +ZtEtjtkPV0hGQGAw8Dva067JmQhXcI2AYljAiSOCZA4JkDimACJYwIkjgmQOCZA4pgAiWMCJI4J
 kDgmQOKYAIljAiSOCZA4JkDimACJYwIkjgmQOCZA4pgAiWMCJI4JkDgmQOKYAIljAiSOCZA4JkDi
-mACJE3q08LOBdYHnGYpngRdrTrsa2BCwlpD8Y/FjGIZhGD78FwzPNGqDDF/CAAAAAElFTkSuQmCC" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+mACJE3q08LOBdYHnGYpngRdrTrsa2BCwlpD8Y/FjGIZhGD78FwzPNGqDDF/CAAAAAElFTkSuQmCC" width="150" height="150" class="img-responsive" alt="Link Inicio">
                             </a><h4> Incio</h4>
                         </div>
                         <div class="col-xs-6 col-sm-3 placeholder">
-                            <a href="../Profesor/02.php">
+                            <a href="../../index.php">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
 ACeIAAAniAHcxMUlAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAArJQTFRF
 ////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -256,7 +255,7 @@ NvNBNhJwx162kY+6IiG9PmWbOJaHBPXZzzZwqB8S1u1D+m5XD7RCTgV9trEzWiVjBX21KgutNfsG
 fVNbmobWG36MPjkxCknptpa+qOiOZAUvM2VXi5GCvFVM0ep8pKboY6bgyDikLOvn1UzSxQXZ8EPn
 0rNMQtW8LvBLzjMn2EqnijvCT1mPVdQyYXUbpnaA73Jn7mZC9hX3QhsZPPtvNfR0eV1JIdpU+jfn
 bTzVSOX0pvkjM9AuOn/jiV/+ZdPOg59V36i9cPzgrs1vL35y+B1Ixv8AJZHmspR2t/sAAAAASUVO
-RK5CYII=" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+RK5CYII=" width="150" height="150" class="img-responsive" alt="Salir">
                             </a><h4> Salir del Sistema</h4>
                         </div>
                     </div>
@@ -293,7 +292,7 @@ RK5CYII=" width="200" height="200" class="img-responsive" alt="Generic placehold
                 }
 
                 if ($_POST['accion'] == "Modificar") {
-                    $modifica = "UPDATE alumno SET  nombre=\"$_POST[nombre]\", nombre=\"$_POST[colegio]\", edad=\"$_POST[edad]\", curso=\"$_POST[curso]\", actividad=\"$_POST[actividad]\"WHERE dni=\"$_POST[dni]\"";
+                    $modifica = "UPDATE alumno SET nombre=\"$_POST[nombre]\", colegio=\"$_POST[colegio]\", edad=\"$_POST[edad]\", curso=\"$_POST[curso]\", actividad=\"$_POST[actividad]\"WHERE dni=\"$_POST[dni]\"";
                     $conexion->exec($modifica);
                 }
 
@@ -304,7 +303,6 @@ RK5CYII=" width="200" height="200" class="img-responsive" alt="Generic placehold
 
 // Determina la página que se muestra
                 $listadoAlumnos = "SELECT dni, nombre, colegio, edad, curso, actividad FROM alumno";
-                $consulta = $conexion->query("SELECT dni, nombre, colegio, edad, curso, actividad FROM alumno");
                 $numAlum = $consulta->rowCount();
                 $numPaginas = floor(abs($numAlum - 1) / 5) + 1;
 
@@ -330,7 +328,7 @@ RK5CYII=" width="200" height="200" class="img-responsive" alt="Generic placehold
 // Listado Alumnos /////////////////////////////////////////////////
                 ?>
  
-                <table  id="table" class="table table-striped">
+                <table id="table" class="table table-responsive">
                     <tr>
                         <th>DNI</th>
                         <th>Nombre</th>
@@ -375,7 +373,7 @@ RK5CYII=" width="200" height="200" class="img-responsive" alt="Generic placehold
                                     <input type="hidden" name="ejercicio" value="02_modificar_unAlumno">
                                     <input type="hidden" name="dni" value="<?= $unAlumno->dni ?>">  
                                     <input type="hidden" name="nombre" value="<?= $unAlumno->nombre ?>">
-                                    <input type="hidden" name="colegio" value="<?= $unAlumno->nombre ?>">
+                                    <input type="hidden" name="colegio" value="<?= $unAlumno->colegio ?>">
                                     <input type="hidden" name="edad" value="<?= $unAlumno->edad ?>">
                                     <input type="hidden" name="curso" value="<?= $unAlumno->curso ?>">
                                     <input type="hidden" name="actividad" value="<?= $unAlumno->actividad ?>">
@@ -453,7 +451,7 @@ RK5CYII=" width="200" height="200" class="img-responsive" alt="Generic placehold
                         </tr>
                     </form>
                 </table>
-    <div 
+                  
             </div>            
         </div>
     </div>

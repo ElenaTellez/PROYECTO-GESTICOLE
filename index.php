@@ -9,37 +9,41 @@
         <link rel="stylesheet" type="text/css" href="css/estilos.css" />
     </head>
     <body>
-        <div id="encabezado">
-
-            <div id="header" >
-                <img src="img/logo.jpg" alt=""/>
-                <h1>GESTICOLE</h1>
+        
+       
+        <div id="encabezado" class="flex-container-inline">
+            <div id="header">
+                <div id="contenedor">
+               
+                <div id="titulo"><br><br><h1>GESTICOLE</h1></div>
+                </div>
             </div>
 
-            <div class="login">
-                <p>Acceso zona usuarios</p>
+            <div id="login">
                 <form action="../Administracion/02.php" method="post">
+                    <div> <span id="uno"></span>&nbsp;&nbsp;Login</div>
                     <table>    
                         <tr>   
                             <td id="libre"> <input type="hidden" name="ejercicio" value="index">
                                 <label for="usuario">Usuario</label> </td>   
-                            <td id="libre">   <input type="text" name="usuario" required="required" autofocus> 
+                            <td id="libre"><input type="text" name="usuario" required="required" autofocus></td>
                         </tr>
                         <tr>
                             <td id="libre"><label for="clave">Contraseña</label></td>                   
                             <td id="libre"><input type="password" name="contrasena" required="required"></td>
                         </tr> 
                         <tr>
-                            <td id="libre"> <a href="02_alta_usuario.php" class="boton">Nuevo Registro </a></td>                   
-                            <td id="libre"> <input type="submit" value="Iniciar sesión"></td>
+                            <td id="libre"><a href="02_alta_usuario.php" class="boton">Nuevo Registro</a></td>                   
+                            <td id="libre"> <input type="submit" value="Iniciar sesión"><span id="dos"></span></td>
                         </tr> 
                     </table>
-                </form>
-
+                </form>-
             </div>
         </div>
-        <div id="contenido">
-            <div class="menu">
+        
+           
+   
+            <div id="menu" class="flex-container">
                 <ul>
                     <li><a href="#">Actividades deportivas</a></li>
                     <li><a href="#">Refuerzo educativo</a></li>
@@ -49,10 +53,38 @@
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </div>
+        
+              
+        <div id="contenido" class="flex-container">
+            
+            
+        <div id="izquierda"><img src="img/logo.jpg" alt=""/></div>
+        <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad   minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip   ex ea commodo consequat. Duis aute irure dolor in reprehenderit in   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur   sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt   mollit anim id est laborum.
+</p>  <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad   minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip   ex ea commodo consequat. Duis aute irure dolor in reprehenderit in   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur   sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt   mollit anim id est laborum.
+</p>  <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad   minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip   ex ea commodo consequat. Duis aute irure dolor in reprehenderit in   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur   sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt   mollit anim id est laborum.
+</p>  
+            
+         <div id="galeria">
+                <div id="portaFoto">
+                    <div class="foto1"></div>
+                    <div class="foto2"></div>
+                    <div class="foto3"></div>
+                    <div class="foto1"></div>
+                    <div class="foto2"></div>
+                    <div class="foto3"></div>
+                    <div class="foto1"></div>
+                    <div class="foto2"></div>
+                    <div class="foto3"></div>
+                    <div class="foto1"></div>
+                    <div class="foto2"></div>
+                    <div class="foto3"></div>
+            </div>
 
-        </div>
 
-
+</div>
+        
+          </div>
+         
 
         <?php
         if (!isset($_SESSION['logueado'])) {

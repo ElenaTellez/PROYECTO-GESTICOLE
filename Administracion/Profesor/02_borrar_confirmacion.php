@@ -7,8 +7,8 @@ $actividad = $_POST['actividad'];
 ?>
 <div class="container">
     <h3 class="text-center">Se borrará el profesor seleccionado de la base de datos:</h3>
-    <hr>
-    <table  class="table table-striped">
+     
+    <table  id="table" class="table table-responsive">
         <tr>
             <th>DNI</th>
             <th>Nombre</th>
@@ -26,7 +26,7 @@ $actividad = $_POST['actividad'];
             <td><?= $actividad ?></td>
         </tr>            
     </table>        
-    <hr>¿Está seguro?
+    <h3>¿Está seguro?</h3>
 
     <table>
         <tr>

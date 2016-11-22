@@ -1,19 +1,21 @@
 <?php
 $dni = $_POST['dni'];
 $nombre = $_POST['nombre'];
-$direccion = $_POST['direccion'];
-$telefono = $_POST['telefono'];
+$colegio = $_POST['colegio'];
+$edad = $_POST['edad'];
+$curso = $_POST['curso'];
 $actividad = $_POST['actividad'];
 ?>
 <div class="container">
     <h3 class="text-center">Se borrará el alumno seleccionado de la base de datos:</h3>
-    <hr>
-    <table  class="table table-striped">
+     
+    <table  id="table" class="table table-responsive">
         <tr>
             <th>DNI</th>
             <th>Nombre</th>
-            <th>Dirección</th>
-            <th>Teléfono</th>
+            <th>Colegio</th>
+            <th>Edad</th>
+            <th>Curso</th>
             <th>Actividad</th>
             <th></th>
             <th></th>
@@ -21,12 +23,13 @@ $actividad = $_POST['actividad'];
         <tr>
             <td><?= $dni ?></td>
             <td><?= $nombre ?></td>
-            <td><?= $direccion ?></td>
-            <td><?= $telefono ?></td>
+            <td><?= $colegio ?></td>
+            <td><?= $edad ?></td>
+            <td><?= $curso ?></td>
             <td><?= $actividad ?></td>
         </tr>            
     </table>        
-    <hr>¿Está seguro?
+    <h3>¿Está seguro?</h3>
 
     <table>
         <tr>
