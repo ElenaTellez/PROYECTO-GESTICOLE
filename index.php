@@ -18,7 +18,7 @@
 
             <div class="login">
                 <p>Acceso zona usuarios</p>
-                <form action="pagina.php" method="post">
+                <form action="../Administracion/02.php" method="post">
                     <table>    
                         <tr>   
                             <td id="libre"> <input type="hidden" name="ejercicio" value="index">

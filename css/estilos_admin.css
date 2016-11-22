@@ -1,0 +1,29 @@
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Lobster);
+
+body {
+    background-color: #ccebff !important;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#personal{
+    border-radius: 25px;
+    text-align: center;
+    color: #001133;
+    margin: 25px;
+    border-style: solid;
+    border-color: #ff0000 #0000ff;
+    
+}
+
+#table {
+    background: #ffffcc;
+    color: #001133;
+    border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-radius: 25px;
+}
+
+th,td{
+    text-align: center !important;
+}

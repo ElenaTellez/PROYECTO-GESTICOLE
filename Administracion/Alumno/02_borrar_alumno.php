@@ -6,7 +6,7 @@ $telefono = $_POST['telefono'];
 $actividad = $_POST['actividad'];
 ?>
 <div class="container">
-    <h3 class="text-center">Se borrará el profesor seleccionado de la base de datos:</h3>
+    <h3 class="text-center">Se borrará el alumno seleccionado de la base de datos:</h3>
     <hr>
     <table  class="table table-striped">
         <tr>
